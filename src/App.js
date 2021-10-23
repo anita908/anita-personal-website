@@ -27,18 +27,19 @@ function App() {
        <p>Welcome to Anita's Personal Website</p>
         
         <h1 class="App-sub-headers">About me ! </h1>
-        <p>Go yo BYU (go cougars!!)</p>
+        <p>Go to BYU (go cougars!!)</p>
         <p>Major in master of information system management (MISM)</p>
-        <p>Love swimming, help me relax and exercise, will go every week</p>
+        <p>Love swimming, helps me relax and exercise, must go every week</p>
         <p>Enjoy programming, love how the code is connected</p>
 
         <h1 class="App-sub-headers">Skills I have ! !</h1>
         <div class="App-skills">
           <span>React</span>
+          <span>Redux</span>
           <span>JavaScript</span>
           <span>wordpress</span>
           <span>VBA</span>
-          <span> ASP.NET</span>
+          <span>ASP.NET</span>
           <span>mySQL</span>
           <span>C++</span>
           <span>git</span>
