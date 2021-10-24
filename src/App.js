@@ -26,11 +26,14 @@ function App() {
        <p>Welcome to Anita's Personal Website</p>
         
         <h1 class="App-sub-headers">About me !</h1>
-        <p>My name is Jo-Yu, but I go with Anita</p>
-        <p>I go yo BYU (go cougars!!)</p>
-        <p>Major in master of information system management (MISM)</p>
-        <p>Love swimming, help me relax and exercise, will go every week</p>
-        <p>Enjoy programming, love how the code is connected</p>
+        <div class="App-description">
+          <p>My name is Jo-Yu, but I go with Anita</p>
+          <p>Go to BYU (go cougars!!)</p>
+          <p>Major in master of information system management (MISM)</p>
+          <p>Love swimming, it helps me relax and exercise, must go every week !</p>
+          <p>Enjoy programming, love how the code is connected</p>
+          <p>Love BYU slogan/motto, ' Enter to Learn; Go Forth to Serve ', I hope to apply all I learn to serve others</p>
+        </div>
 
         <h1 class="App-sub-headers">Skills I have ! !</h1>
         <div class="App-skills">
