@@ -7,7 +7,6 @@ function App() {
 
   const [currentTime, setCurrentTime] = useState(new Date())
   
-
   useEffect(() => {
     var timer = setInterval(()=>setCurrentTime(new Date()), 1000 )
     return function cleanup() {
@@ -26,8 +25,9 @@ function App() {
       
        <p>Welcome to Anita's Personal Website</p>
         
-        <h1 class="App-sub-headers">About me ! </h1>
-        <p>Go yo BYU (go cougars!!)</p>
+        <h1 class="App-sub-headers">About me !</h1>
+        <p>My name is Jo-Yu, but I go with Anita</p>
+        <p>I go yo BYU (go cougars!!)</p>
         <p>Major in master of information system management (MISM)</p>
         <p>Love swimming, help me relax and exercise, will go every week</p>
         <p>Enjoy programming, love how the code is connected</p>
