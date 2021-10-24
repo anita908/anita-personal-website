@@ -63,6 +63,18 @@
   text-align: start;
 }
 
+.App-third-headers {
+  font-size: calc(16px + 2vmin);
+  margin-left: 8rem;
+  margin-top: 2rem;
+  text-align: start;
+}
+
+.App-description  p {
+  line-height: 2rem;
+  padding: 0 5%;
+}
+
 .App-skills {
   line-height: 2rem;
   padding: 0 30%;
@@ -87,11 +99,12 @@
 .App-yvideo-text {
   display: inline-block;
   line-height: 2rem;
-  padding: 0 5rem;
+  padding: 0 10%;
+  margin-top: -5px;
 }
 
 .App-yvideo-text a {
-  margin-left: 5px;
+  display: block;
 }
 
 .App-footer {
@@ -107,4 +120,21 @@
   .App-sub-headers {
     margin-left: 2rem;
   }
+
+  .App-third-headers {
+    margin-left: 2rem;
+  }
+
+  .App-skills {
+    padding: 0 15%;
+  }
+
+  .App-yvideo-text {
+    padding: 0 2rem;
+  }
+
+  .App-yvideo-img {
+    width: 90%;
+  }
+
 }
