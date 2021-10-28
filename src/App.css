@@ -189,4 +189,10 @@
     width: 90%;
   }
 
+  .App-codeWell-video iframe {
+    height: 90%;
+    left: 5%;
+    width: 90%;
+  }
+
 }
