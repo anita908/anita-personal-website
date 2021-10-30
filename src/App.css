@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'ArchitectsDaughter'; 
-  src: url('./ArchitectsDaughter-Regular.ttf'); 
+  src: url('./Utility/ArchitectsDaughter-Regular.ttf'); 
 }
 
 .App {
@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-image: url(./line-background.jpeg);
+  background-image: url(./Utility/line-background.jpeg);
   background-color: white;
   background-size: 100%;
   color: RGB(92,98,116);
