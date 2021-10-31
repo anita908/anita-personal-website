@@ -11,6 +11,7 @@ function App() {
   
   useEffect(() => {
     setTextAnimation(0.1,5,0,'linear','#ffffff',true);
+    
     var timer = setInterval(()=>setCurrentTime(new Date()), 1000 )
     return function cleanup() {
         clearInterval(timer)
