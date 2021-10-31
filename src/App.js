@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import resume from './Jo-Yu Wu Resume.pdf'
-import yvideo from './yvideo.png'
+import resume from './Utility/Jo-Yu Wu Resume.pdf'
+import yvideo from './Utility/yvideo.png'
 import './App.css';
 
 function App() {
