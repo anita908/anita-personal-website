@@ -9,9 +9,9 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.svg$/,
-        use: ['@svgr/webpack'],
-      },
-    ],
+        test: /\.(png|jpg|jpeg|gif|ico|svg|webp)$/,
+        loader: 'file-loader'
+      }
+    ]
   },
 }
