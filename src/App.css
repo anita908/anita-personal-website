@@ -35,6 +35,8 @@
   margin-bottom: 6rem;
   top: 0;
   width: 100%;
+  z-index: 3;
+
 } 
 
 .App-title p {
@@ -42,23 +44,13 @@
   margin-left: 35%;
   position: fixed;
   width: 100%;
-  z-index: 3;
-}
-
-.App-title h1 {
-  color: red;
-  font-weight: bolder;
-  left: 50%;
-  margin-left: -70px;
-  position: fixed; 
-  top: 0;
-  z-index: 3;
 }
 
 .App-sub-title {
   background: cyan;
   display: inline-block;
   line-height: 10px;
+  margin-top: 10px;
 }
 
 .App-sub-headers {
@@ -74,6 +66,14 @@
   margin-left: 8rem;
   margin-top: 2rem;
   text-align: start;
+}
+
+.App-hand-anita {
+  left: 50%;
+  margin-left: -70px;
+  margin-top: 1.5%;
+  position: fixed; ;
+  z-index: 3;
 }
 
 .App-description  p {
@@ -194,5 +194,10 @@
     left: 5%;
     width: 90%;
   }
+}
 
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .App-title p {
+    font-size: 20px;
+  }
 }
