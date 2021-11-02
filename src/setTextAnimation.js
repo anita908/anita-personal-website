@@ -1,4 +1,5 @@
 export const setTextAnimation = (delay, duration, strokeWidth, timingFunction, strokeColor,repeat) => {
+
   let paths = document.querySelectorAll("path");
   let mode=repeat?'infinite':'forwards'
   for (let i = 0; i < paths.length; i++) {

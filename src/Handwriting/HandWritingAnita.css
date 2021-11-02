@@ -1,0 +1,50 @@
+svg {
+  fill:none;
+  left: 50%;
+  margin-left: -70px;
+  margin-top: 20px;
+  position: fixed;
+  stroke:#000;
+  stroke-width:0.25mm;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  svg {
+    margin-left: -85px;
+    margin-top: 12px;
+
+  }
+}
+
+  /* Google chrome */
+  @-webkit-keyframes svg-text-anim {
+  40% {
+      stroke-dashoffset: 0;
+      fill: transparent;
+    }
+    60% {
+      stroke-dashoffset: 0;
+      fill: red;
+    }
+    100% {
+      stroke-dashoffset: 0;
+      fill: red;
+    }
+    
+}
+/* Most browsers */
+@keyframes svg-text-anim {
+  40% {
+      stroke-dashoffset: 0;
+      fill: transparent;
+    }
+    60% {
+      stroke-dashoffset: 0;
+      fill: red;
+    }
+    100% {
+      stroke-dashoffset: 0;
+      fill: red;
+    }
+    
+}
