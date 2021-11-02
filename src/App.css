@@ -58,6 +58,7 @@
   background: cyan;
   display: inline-block;
   line-height: 10px;
+  margin-top: 1rem;
 }
 
 .App-sub-headers {
@@ -84,10 +85,12 @@
   background: chartreuse;;
   display: inline-block;
   line-height: 10px;
+  font-weight: bold;
 }
 
 .App-skills {
   line-height: 2rem;
+  font-weight: bold;
   padding: 0 30%;
   overflow-wrap: break-word; 
 }
@@ -118,6 +121,7 @@
   background: lightsalmon;
   display: inline-block;
   line-height: 10px;
+  font-weight: bold;
 }
 
 .App-yvideo-text a {
@@ -155,6 +159,10 @@
 
 .App-contact {
   z-index: 10;
+}
+
+.App-contact p {
+  line-height: 2rem;
 }
 
 .App-footer {

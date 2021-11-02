@@ -33,7 +33,7 @@ function App() {
 
         <h1 className="App-sub-headers">About me !</h1>
         <div className="App-description">
-          <p>My name is Jo-Yu, but I go with <span>Anita</span></p>
+          <p>My name is Jo-Yu, but I go by <span>Anita</span></p>
           <p>I Go to <span>BYU</span> (go cougars!!)</p>
           <p>Major in master of information system management <span>(MISM)</span></p>
           <p>Love swimming, it helps me relax and exercise, must go every week !</p>
