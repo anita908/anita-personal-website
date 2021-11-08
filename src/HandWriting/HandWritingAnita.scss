@@ -1,11 +1,11 @@
 svg {
-  fill: none;
+  fill:none;
   left: 50%;
   margin-left: -70px;
   margin-top: 20px;
   position: fixed;
-  stroke: #000;
-  stroke-width: 0.25mm;
+  stroke:#000;
+  stroke-width:0.25mm;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -14,8 +14,9 @@ svg {
     margin-top: 12px;
   }
 }
-/* Google chrome */
-@-webkit-keyframes svg-text-anim {
+
+  /* Google chrome */
+  @-webkit-keyframes svg-text-anim {
   40% {
     stroke-dashoffset: 0;
     fill: transparent;
@@ -28,6 +29,7 @@ svg {
     stroke-dashoffset: 0;
     fill: red;
   }
+    
 }
 /* Most browsers */
 @keyframes svg-text-anim {
@@ -42,7 +44,5 @@ svg {
   100% {
     stroke-dashoffset: 0;
     fill: red;
-  }
+  }  
 }
-
-/*# sourceMappingURL=HandWritingAnita.css.map */

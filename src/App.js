@@ -3,7 +3,7 @@ import Anita from './HandWriting/HandWritingAnita'
 import resume from './Utility/Jo-Yu Wu Resume.pdf'
 import yvideo from './Utility/yvideo.png'
 import { setTextAnimation } from './setTextAnimation'
-import './App.css';
+import './App.css'
 
 function App() {
 
@@ -55,6 +55,7 @@ function App() {
           <span>Swift</span>
           <span>JAVA</span>
           <span>HTML/CSS</span>
+          <span>SASS</span>
         </div>
 
         <h1 className="App-sub-headers">Projects ⟡</h1>
