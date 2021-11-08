@@ -124,9 +124,13 @@
 .App-codewell-link {
   align-items: center;
   display: flex;
-  justify-content: center p;
-  justify-content-margin-right: 1rem;
+  justify-content: center 
 }
+
+.App-codewell-link p {
+  margin-right: 1rem;
+}
+
 .App-codewell-link a {
   margin-right: 1rem;
 }
