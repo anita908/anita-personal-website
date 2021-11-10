@@ -10,7 +10,7 @@ function App() {
   const [currentTime, setCurrentTime] = useState(new Date())
   
   useEffect(() => {
-    setTextAnimation(0.1,5,0,'linear','#ffffff',true)
+    setTextAnimation(0.1,3,0,'linear','#ffffff',true)
 
     var timer = setInterval(()=>setCurrentTime(new Date()), 1000 )
     return function cleanup() {
